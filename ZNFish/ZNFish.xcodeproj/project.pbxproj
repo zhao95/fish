@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		2722D74F1D71473E005A0C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722D74E1D71473E005A0C9E /* AppDelegate.swift */; };
 		2722D7511D71473E005A0C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722D7501D71473E005A0C9E /* ViewController.swift */; };
-		2722D7541D71473E005A0C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2722D7521D71473E005A0C9E /* Main.storyboard */; };
 		2722D7561D71473E005A0C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2722D7551D71473E005A0C9E /* Assets.xcassets */; };
 		2722D7591D71473E005A0C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2722D7571D71473E005A0C9E /* LaunchScreen.storyboard */; };
+		2722D7611D717BDE005A0C9E /* ZNFishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2722D7601D717BDE005A0C9E /* ZNFishViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2722D74B1D71473E005A0C9E /* ZNFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZNFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2722D74E1D71473E005A0C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2722D7501D71473E005A0C9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2722D7531D71473E005A0C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2722D7551D71473E005A0C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2722D7581D71473E005A0C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2722D75A1D71473E005A0C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2722D7601D717BDE005A0C9E /* ZNFishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZNFishViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			children = (
 				2722D74E1D71473E005A0C9E /* AppDelegate.swift */,
 				2722D7501D71473E005A0C9E /* ViewController.swift */,
-				2722D7521D71473E005A0C9E /* Main.storyboard */,
+				2722D7601D717BDE005A0C9E /* ZNFishViewController.swift */,
 				2722D7551D71473E005A0C9E /* Assets.xcassets */,
 				2722D7571D71473E005A0C9E /* LaunchScreen.storyboard */,
 				2722D75A1D71473E005A0C9E /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				2722D7591D71473E005A0C9E /* LaunchScreen.storyboard in Resources */,
 				2722D7561D71473E005A0C9E /* Assets.xcassets in Resources */,
-				2722D7541D71473E005A0C9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2722D7511D71473E005A0C9E /* ViewController.swift in Sources */,
+				2722D7611D717BDE005A0C9E /* ZNFishViewController.swift in Sources */,
 				2722D74F1D71473E005A0C9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2722D7521D71473E005A0C9E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2722D7531D71473E005A0C9E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2722D7571D71473E005A0C9E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +278,7 @@
 				2722D75F1D71473E005A0C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
